@@ -92,8 +92,7 @@ const Navbar: FunctionComponent = () => {
   useEffect(() => {
     const connectToStarknet = async () => {
       if (
-        !localStorage.getItem("SQ-connectedWallet") &&
-        route !== "/partnership"
+        !localStorage.getItem("SQ-connectedWallet") 
       ) {
         connectWallet();
       } else {

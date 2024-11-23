@@ -10,8 +10,7 @@ const Footer: FunctionComponent = () => {
   return (
     <div className="footer">
       <footer className={styles.footer}>
-        <div className={styles.content}>
-          <Link href="/partnership">Partnership</Link>
+        <div className={styles.content}>    
         </div>
         <div className={styles.socials}>
           <div
